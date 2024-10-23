@@ -40,7 +40,7 @@ You can use CURL or postman tool to test the RESTful endpoints of the applicatio
     curl -X GET http://localhost:8080/api/pets
     ```
 
-#### Get Pets Outside Zone
+#### Get Pets Outside Zone grouped by pet type and tracker type.
 - GET `/api/pets/outside-zone`: Retrieves pets that are outside their designated zones.
     ```shell
     curl -X GET http://localhost:8080/api/pets/outside-zone
